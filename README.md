@@ -49,13 +49,18 @@ domains your machine is resolving in real time with minimal overhead.
 
 Requirements: Linux kernel 5.8+, clang, libbpf-dev, llvm, bpftool, make.
 
+### Interfaces
+
+    ip link show
+
+
 ### Build
 
     make
 
 ### Run
 
-    sudo ./dns_sentinel_user
+    sudo ./dns_sentinel_user <Interface name>
 
 ## What I Learned
 
